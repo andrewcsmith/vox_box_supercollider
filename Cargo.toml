@@ -3,6 +3,9 @@ authors = ["Andrew Smith <andrewchristophersmith@gmail.com>"]
 name = "vox_box_supercollider"
 version = "0.1.0"
 
+[lib]
+crate-type = ["rlib", "staticlib"]
+
 [dependencies]
 num = "*"
 libc = "*"
